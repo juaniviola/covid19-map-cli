@@ -1,0 +1,15 @@
+{
+  "name": "terminal",
+  "version": "1.0.0",
+  "description": "",
+  "bin": "index.js",
+  "keywords": [],
+  "author": "Juani Viola",
+  "license": "ISC",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.8.19",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
+  }
+}
