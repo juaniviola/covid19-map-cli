@@ -1,6 +1,6 @@
 {
   "name": "covid19-mapcli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cli map covid19 cases",
   "bin": {
     "covid19-mapcli": "index.js"
