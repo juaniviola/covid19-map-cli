@@ -1,8 +1,8 @@
 ## Covid19 CLI Map
 
 **Install**
-``` json
-npm install -g covid19-climap
+``` sh
+npm install -g covid19-mapcli
 ```
 
 **Usage**
