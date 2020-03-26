@@ -35,9 +35,9 @@ async function renderData(map, bar, tree, screen) {
     bar.setData({
       titles: ['Casos', 'Muertes', 'Recup.'],
       data: [
-        data[0].confirmed,
-        data[0].deaths,
-        data[0].recovered
+        data[0].confirmed ? data[0].confirmed : 0,
+        data[0].deaths ? data[0].deaths : 0,
+        //data[0].recovered ? data[0].recovered : 0
       ]
     })
 
@@ -69,9 +69,9 @@ async function reRenderData({ index, data, map, bar, tree, screen }) {
   bar.setData({
     titles: ['Casos', 'Muertes', 'Recup.'],
     data: [
-      data[index].confirmed,
-      data[index].deaths,
-      data[index].recovered
+      data[index].confirmed ? data[index].confirmed : 0,
+      data[index].deaths ? data[index].deaths : 0,
+      //data[index].recovered ? data[index].recovered : 0
     ]
   })
 

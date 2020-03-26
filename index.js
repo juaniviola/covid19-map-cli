@@ -15,7 +15,7 @@ const { renderData } = require('./data')
 
   const bar = grid.set(2, 0, 2, 4, contrib.bar, {
     label: 'Datos por pais',
-    barWidth: 5,
+    barWidth: 6,
     barSpacing: 12,
     xOffset: 0,
     maxHeight: 9,
