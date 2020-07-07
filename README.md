@@ -10,4 +10,7 @@ npm install -g covid19-mapcli
 covid19-mapcli
 ```
 
+**Api**
+https://github.com/Laeyoung/COVID-19-API
+
 ![Image](map.png)
